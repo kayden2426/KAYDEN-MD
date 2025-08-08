@@ -13,7 +13,7 @@ AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
-AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY 𝐊𝐚𝐲𝐝𝐞𝐧-𝐌𝐝🤍*",
+AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY 𝐊𝐀𝐘𝐃𝐄𝐍-𝐌𝐃🤍*",
 // set the auto reply massage on status reply  
 ANTI_DELETE: process.env.ANTI_DELETE || "false",
 // set true false for anti delete     
@@ -31,9 +31,9 @@ MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/qpnazl.j
 // add custom menu and mention reply image url
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "𝐊𝐚𝐲𝐝𝐞𝐧-𝐌𝐝",
+BOT_NAME: process.env.BOT_NAME || "𝐊𝐀𝐘𝐃𝐄𝐍-𝐌𝐃",
 // add bot namw here for menu
-STICKER_NAME: process.env.STICKER_NAME || "𝐊𝐚𝐲𝐝𝐞𝐧-𝐌𝐝",
+STICKER_NAME: process.env.STICKER_NAME || "𝐊𝐚𝐲𝐝𝐞𝐧👌🏾",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
