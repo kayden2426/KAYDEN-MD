@@ -34,7 +34,7 @@ const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
 ╭──────────────────❂
- ☯╭───*𝐏𝐎𝐏𝐊𝐈𝐃-𝐌𝐃*────❂
+ ☯╭───*𝐊𝐀𝐘𝐃𝐄𝐍-𝐌𝐃*────❂
 ┊〄┊ *𝐔𝐬𝐞𝐫* : ${s.OWNER_NAME}
 ┊〄┊ *𝐌𝐨𝐝𝐞* : ${mode}
 ┊〄╰───────────────❂
@@ -44,7 +44,7 @@ const date = moment().format('DD/MM/YYYY');
 ╰──────────────────❂ \n\n`;
  
     let menuMsg=`  
-  *𝐏𝐎𝐏𝐊𝐈𝐃 𝐌𝐃 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒*
+  *𝐊𝐀𝐘𝐃𝐄𝐍 𝐌𝐃 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒*
 `;
 
     for (const cat in coms) {
@@ -61,7 +61,7 @@ const date = moment().format('DD/MM/YYYY');
 ◇            ◇
 *—————♥️♥️♥️♥️—————*
 
-  *𝐏𝐎𝐏𝐊𝐈𝐃 𝐌𝐃*                                         
+  *𝐊𝐀𝐘𝐃𝐄𝐍 𝐌𝐃*                                         
 *╰═════════════❂*
 `;
 
@@ -79,7 +79,7 @@ const date = moment().format('DD/MM/YYYY');
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "*popkid*" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "*kayden*" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
